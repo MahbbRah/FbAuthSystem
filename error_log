@@ -1,0 +1,87 @@
+[15-Oct-2016 23:39:36 America/New_York] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookAuthenticationException: Error validating verification code. Please make sure your redirect_uri is identical to the one you used in the OAuth dialog request in /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/Exceptions/FacebookResponseException.php:106
+Stack trace:
+#0 /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4  in /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/Exceptions/FacebookResponseException.php on line 106
+[15-Oct-2016 23:39:55 America/New_York] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookAuthenticationException: Error validating verification code. Please make sure your redirect_uri is identical to the one you used in the OAuth dialog request in /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/Exceptions/FacebookResponseException.php:106
+Stack trace:
+#0 /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4  in /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/Exceptions/FacebookResponseException.php on line 106
+[15-Oct-2016 23:43:04 America/New_York] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookAuthenticationException: Error validating verification code. Please make sure your redirect_uri is identical to the one you used in the OAuth dialog request in /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/Exceptions/FacebookResponseException.php:106
+Stack trace:
+#0 /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4  in /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/Exceptions/FacebookResponseException.php on line 106
+[15-Oct-2016 23:45:56 America/New_York] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: Cross-site request forgery validation failed. Required param "state" missing from persistent data. in /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/Helpers/FacebookRedirectLoginHelper.php:244
+Stack trace:
+#0 /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/Helpers/FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+#1 /home/promvfsk/public_html/fblogin/index.php(17): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#2 {main}
+  thrown in /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/Helpers/FacebookRedirectLoginHelper.php on line 244
+[15-Oct-2016 23:46:09 America/New_York] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: Cross-site request forgery validation failed. Required param "state" missing from persistent data. in /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/Helpers/FacebookRedirectLoginHelper.php:244
+Stack trace:
+#0 /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/Helpers/FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+#1 /home/promvfsk/public_html/fblogin/index.php(17): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#2 {main}
+  thrown in /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/Helpers/FacebookRedirectLoginHelper.php on line 244
+[15-Oct-2016 23:46:31 America/New_York] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: Cross-site request forgery validation failed. Required param "state" missing from persistent data. in /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/Helpers/FacebookRedirectLoginHelper.php:244
+Stack trace:
+#0 /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/Helpers/FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+#1 /home/promvfsk/public_html/fblogin/index.php(17): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#2 {main}
+  thrown in /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/Helpers/FacebookRedirectLoginHelper.php on line 244
+[15-Oct-2016 23:50:13 America/New_York] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: You must provide an access token. in /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php:209
+Stack trace:
+#0 /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(201): Facebook\FacebookRequest->validateAccessToken()
+#1 /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#2 /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(338): Facebook\Facebook->sendRequest('GET', '/me', Array, NULL, NULL, 'v2.8')
+#3 /home/promvfsk/public_html/fblogin/index.php(17): Facebook\Facebook->get('/me')
+#4 {main}
+  thrown in /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php on line 209
+[15-Oct-2016 23:50:32 America/New_York] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: You must provide an access token. in /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php:209
+Stack trace:
+#0 /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(201): Facebook\FacebookRequest->validateAccessToken()
+#1 /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#2 /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(338): Facebook\Facebook->sendRequest('GET', '/me', Array, NULL, NULL, 'v2.8')
+#3 /home/promvfsk/public_html/fblogin/index.php(17): Facebook\Facebook->get('/me')
+#4 {main}
+  thrown in /home/promvfsk/public_html/fblogin/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php on line 209
+[15-Oct-2016 23:55:09 America/New_York] PHP Notice:  Undefined variable: response in /home/promvfsk/public_html/fblogin/index.php on line 18
+[15-Oct-2016 23:55:09 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function getGraphUser() on null in /home/promvfsk/public_html/fblogin/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/promvfsk/public_html/fblogin/index.php on line 18
+[15-Oct-2016 23:55:12 America/New_York] PHP Notice:  Undefined variable: response in /home/promvfsk/public_html/fblogin/index.php on line 18
+[15-Oct-2016 23:55:12 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function getGraphUser() on null in /home/promvfsk/public_html/fblogin/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/promvfsk/public_html/fblogin/index.php on line 18
+[15-Oct-2016 23:55:28 America/New_York] PHP Notice:  Undefined variable: response in /home/promvfsk/public_html/fblogin/index.php on line 18
+[15-Oct-2016 23:55:28 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function getGraphUser() on null in /home/promvfsk/public_html/fblogin/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/promvfsk/public_html/fblogin/index.php on line 18
+[15-Oct-2016 23:55:29 America/New_York] PHP Notice:  Undefined variable: response in /home/promvfsk/public_html/fblogin/index.php on line 18
+[15-Oct-2016 23:55:29 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function getGraphUser() on null in /home/promvfsk/public_html/fblogin/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/promvfsk/public_html/fblogin/index.php on line 18
+[15-Oct-2016 23:55:52 America/New_York] PHP Notice:  Undefined variable: response in /home/promvfsk/public_html/fblogin/index.php on line 18
+[15-Oct-2016 23:55:52 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function getGraphUser() on null in /home/promvfsk/public_html/fblogin/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/promvfsk/public_html/fblogin/index.php on line 18
+[16-Oct-2016 03:57:08 America/New_York] PHP Notice:  Undefined variable: response in /home/promvfsk/public_html/fblogin/index.php on line 18
+[16-Oct-2016 03:57:08 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function getGraphUser() on null in /home/promvfsk/public_html/fblogin/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/promvfsk/public_html/fblogin/index.php on line 18
+[16-Oct-2016 05:38:00 America/New_York] PHP Parse error:  syntax error, unexpected 'login' (T_STRING), expecting ',' or ';' in /home/promvfsk/public_html/fblogin/index.php on line 56
+[16-Oct-2016 05:38:02 America/New_York] PHP Parse error:  syntax error, unexpected 'login' (T_STRING), expecting ',' or ';' in /home/promvfsk/public_html/fblogin/index.php on line 56
